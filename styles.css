@@ -1,0 +1,86 @@
+body{font-family: 'Times New Roman', Times, serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-image: url(imgg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.login-details{
+    background-color: aliceblue;
+    padding: 20px;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);   
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.logintitle{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.login-details{
+    margin-bottom: 15px;
+}
+.login-details input{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login-details button{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5PX;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-details button:hover[
+]
+
+.titlePD{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.group-input{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.group-input label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+.group-input input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.group-input button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.group-input button:hover{
+    background-color: #0056b3;
+}
+
+
